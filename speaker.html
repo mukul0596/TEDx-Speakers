@@ -59,7 +59,7 @@
             }
             .speaker > div:nth-of-type(2) {
                 width: 45%;
-                height: 33vh;
+                height: 350px;
                 overflow: hidden;
                 padding: 0 1.5vw;
                 transform: translateY(200px);
@@ -115,9 +115,12 @@
             }
             .popUpWin {
                 width: 800px;
+                max-height: 100vh;
                 background-color: #fff;
                 transform: translateY(-100%);
                 transition: 1s ease;
+                overflow-y: scroll;
+                overflow-x: hidden;
             }
             .popHeader {
                 padding: 0 10px;
@@ -218,10 +221,13 @@
                     padding: 3vh 0;
                 }
                 .popUpWin {
-                    width: 600px;
+                    width: 350px;
+                }
+                .popHeader {
+                    padding: 0;
                 }
                 .cross {
-                    left: 570px;
+                    left: 325px;
                 }
                 .socialContainer {
                     widows: 60%;
