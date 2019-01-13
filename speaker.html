@@ -17,7 +17,7 @@
                 justify-content: center;
                 align-items: center;
             }
-            .container {
+            .spk {
                 width: 1350px;
                 margin: 2rem;
             }
@@ -29,8 +29,8 @@
             }
             .speakerHead > div {
                 border: solid 3px black;
-                line-height: 0.1;
-                padding: 0 15px;
+                line-height: 1.1;
+                padding: 5px 15px;
             }
             .speakers {
                 width: 100%;
@@ -66,17 +66,18 @@
                 opacity: 0;
                 transition: 1s ease;
             }
-            h1 {
+            h4 {
                 font-size: 36px;
                 font-family: 'Dosis', sans-serif;
+                margin: 0;
             }
-            h2 {
+            h6 {
                 font-size: 30px;
                 font-family: 'Dosis', sans-serif;
                 margin: 0 0 10px 0;
                 text-align: center;
             }
-            h3 {
+            h5 {
                 font-size: 20px;
                 font-family: 'Dosis', sans-serif;
                 color: #999;
@@ -158,46 +159,46 @@
             }
 
             @media all and (min-width: 1000px) and (max-width: 1200px) {
-                .container {
+                .spk {
                     width: 1000px;
                 }
                 body {
                     font-size: 14px;
                 }
-                h1 {
+                h4 {
                     font-size: 32px;
                 }
-                h2 {
+                h6 {
                     font-size: 26px;
                 }
             }
             
             @media all and (min-width: 800px) and (max-width: 1000px) {
-                .container {
+                .spk {
                     width: 800px;
                 }
                 body {
                     font-size: 14px;
                 }
-                h1 {
+                h4 {
                     font-size: 28px;
                 }
-                h2 {
+                h6 {
                     font-size: 24px;
                 }
             }
 
             @media all and (max-width: 800px) {
-                .container {
+                .spk {
                     width: 800px;
                 }
                 body {
                     font-size: 16px;
                 }
-                h1 {
+                h4 {
                     font-size: 32px;
                 }
-                h2 {
+                h6 {
                     font-size: 28px;
                 }
                 .speaker > div:nth-of-type(1) {
@@ -241,9 +242,9 @@
         </style>
     </head>
     <body>
-        <div class="container">
+        <div class="spk">
             <div class="speakerHead">
-                <div><h1>Speakers</h1></div>
+                <div><h4>Speakers</h4></div>
             </div>
             <div class="speakers">
                 <div class="row">
@@ -258,8 +259,8 @@
                             </div>
                         </div>
                         <div onclick="popUp(0)">
-                            <h2>Abhas Mitra</h2>
-                            <h3>Indian Astrophysicist Pioneering in Big Bang Theory and Black Holes</h3>
+                            <h6>Abhas Mitra</h6>
+                            <h5>Indian Astrophysicist Pioneering in Big Bang Theory and Black Holes</h5>
                             <p>
                                 A pioneering Indian astrophysicist, the former head of Theoretical Physics Section at Bhabha Atomic Research Centre, Mumbai, and 
                                 currently an (Hon) Adjunct Professor at Homi Bhabha National Institute, Mumbai.Known for his distinct views, Dr Mitra has regularly 
@@ -286,8 +287,8 @@
                             </div>
                         </div>
                         <div onclick="popUp(1)">
-                            <h2>Aashna Shroff</h2>
-                            <h3>Lifestyle & Fashion Blogger</h3>
+                            <h6>Aashna Shroff</h6>
+                            <h5>Lifestyle & Fashion Blogger</h5>
                             <p>
                                 An Indian fashion, travel and lifestyle blogger and perhaps the one of the most known fashion vlogger and YouTuber in India, she studied 
                                 Fashion Business at London College of Fashion. Ever the entrepreneur, she also has an online store The Snob Shop that is an extension of her 
@@ -309,8 +310,8 @@
                             </div>
                         </div>
                         <div onclick="popUp(2)">
-                            <h2>Andrea Thumshirn</h2>
-                            <h3>German Hockey Player | Hockey Village India</h3>
+                            <h6>Andrea Thumshirn</h6>
+                            <h5>German Hockey Player | Hockey Village India</h5>
                             <p>
                                 Andrea Thumshirn, the name might not be a household name in Indian hockey, but her work to develop the sport at the grassroots level is 
                                 unmatched. Also a German Premier League hockey player, Andrea came to India as a tour operator and in the next 2 years, moved 
@@ -334,8 +335,8 @@
                             </div>
                         </div>
                         <div onclick="popUp(3)">
-                            <h2>David Belo</h2>
-                            <h3>Artisanal Chocolatier</h3>
+                            <h6>David Belo</h6>
+                            <h5>Artisanal Chocolatier</h5>
                             <p>
                                 David began his career as a cocktail bartender, mixing drinks at some of London’s most prestigious cocktail bars, restaurants and clubs, 
                                 including the London’s LAB bar as well as venues abroad before retraining as an artisan bread baker and pastry chef. Having grown up in 
@@ -362,8 +363,8 @@
                             </div>
                         </div>
                         <div onclick="popUp(4)">
-                            <h2>Daniel Doan</h2>
-                            <h3>Co-Founder & CGO at Black Shell Media</h3>
+                            <h6>Daniel Doan</h6>
+                            <h5>Co-Founder & CGO at Black Shell Media</h5>
                             <p>
                                 He is a game designer and inbound marketing expert based in California. He is an accomplished growth marketer and has experience in 
                                 building brands and growing communities for independent game developers and game companies worldwide. With his sound business acumen 
@@ -388,8 +389,8 @@
                             </div>
                         </div>
                         <div onclick="popUp(5)">
-                            <h2>Dhrupad Karwa</h2>
-                            <h3>Co-Founder & CEO HaikuJam</h3>
+                            <h6>Dhrupad Karwa</h6>
+                            <h5>Co-Founder & CEO HaikuJam</h5>
                             <p>
                                 He is a 25-year old budding entrepreneur from Kolkata, India. He is a graduate in Economics from University College London (UCL), and is 
                                 currently leading an enthusiastic team of 12 at HaikuJAM, an app which has profiled in Forbes,The New York Times and many other 
@@ -414,8 +415,8 @@
                             </div>
                         </div>
                         <div onclick="popUp(6)">
-                            <h2>Insia Dariwala</h2>
-                            <h3>Activist | Filmmaker</h3>
+                            <h6>Insia Dariwala</h6>
+                            <h5>Activist | Filmmaker</h5>
                             <p>
                                 Insia Dariwala is an Advertising and Mass Communication graduate from F.I.T New York and today, an award-winning international filmmaker 
                                 who effectively uses her 14 years of expertise as a writer, director and executive producer to highlight social evils like child sexual 
@@ -440,8 +441,8 @@
                             </div>
                         </div>
                         <div onclick="popUp(7)">
-                            <h2>Nabila Jamshed</h2>
-                            <h3>Global Governance & Security | United Nations</h3>
+                            <h6>Nabila Jamshed</h6>
+                            <h5>Global Governance & Security | United Nations</h5>
                             <p>
                                 Born in India, Nabila is an international security and global governance professional currently working with the United Nations. She 
                                 has previously served as a political analyst with multilateral agencies and the UN in The Hague, in India, and with the United Nations 
@@ -469,8 +470,8 @@
                             </div>
                         </div>
                         <div onclick="popUp(8)">
-                            <h2>Sahej Rahal</h2>
-                            <h3>Artist | Sculptor</h3>
+                            <h6>Sahej Rahal</h6>
+                            <h5>Artist | Sculptor</h5>
                             <p>
                                 Sahej Rahal, born and brought up in the sprawling Mumbai metropolis, Rahal graduated from Rachana Sansad Academy of Fine Arts, trained 
                                 in painting but branched out into other mediums of artistic expression. In early 2017, Rahal worked on art installations spread out 
@@ -496,8 +497,8 @@
                             </div>
                         </div>
                         <div onclick="popUp(9)">
-                            <h2>Shraddha Sashdhar</h2>
-                            <h3>Miss India Universe 2017</h3>
+                            <h6>Shraddha Sashdhar</h6>
+                            <h5>Miss India Universe 2017</h5>
                             <p>
                                 Shraddha hails from Chennai and is an Indian model, who was crowned Miss Diva 2017 and represented India at Miss Universe 2017, held in 
                                 Las Vegas. Shraddha did her schooling at Army Public School and pursued a degree in Mass Media from Sophia College, Mumbai. She has been 
@@ -519,8 +520,8 @@
                             </div>
                         </div>
                         <div onclick="popUp(10)">
-                            <h2>Ujjwal Anand</h2>
-                            <h3>BITSian Speaker |</h3>
+                            <h6>Ujjwal Anand</h6>
+                            <h5>BITSian Speaker |</h5>
                             <p>
                                 Student speaker for the 2018 edition of TEDxBITSPilani, Ujjwal Anand, a self taught fluteboxer who will be talking about how to push 
                                 yourself and make things happen. He is a 3rd year undergraduate from BITS Pilani. He is currently the Team Leader of Electrical Power 
@@ -539,8 +540,8 @@
                             </div>
                         </div>
                         <div onclick="popUp(11)">
-                            <h2>Varun Sheth</h2>
-                            <h3>CEO & Co-Founder Ketto</h3>
+                            <h6>Varun Sheth</h6>
+                            <h5>CEO & Co-Founder Ketto</h5>
                             <p>
                                     A former chartered financial analyst, working with ICAP (the world's leading market operator), Varun Sheth left his job, and in his 
                                     "Aha!" moment, founded, 'Ketto' in 2011, a crowd-based fundraising platform along with the Bollywood actor Kunal Kapoor.Today, this 
@@ -567,8 +568,8 @@
                             </div>
                         </div>
                         <div onclick="popUp(12)">
-                            <h2>J Gopikrishanan</h2>
-                            <h3>Award Wining Journalist</h3>
+                            <h6>J Gopikrishanan</h6>
+                            <h5>Award Wining Journalist</h5>
                             <p>
                                 An Indian journalist who unearthed the 2G Scam. He obtained Post Graduate Diploma in Journalism from Institute of Journalism, Press 
                                 Club, Thiruvananthapuram in 1999, followed by working with several media organisations in Kerela. Apart from the Ramnath Goenka award 
@@ -641,67 +642,67 @@
             document.body.style.overflow = "hidden";
             switch (n) {
                 case 0: {
-                    elem3.innerHTML = "<h2>Abhas Mitra</h2><h3>Indian Astrophysicist Pioneering in Big Bang Theory and Black Holes</h3>"
+                    elem3.innerHTML = "<h6>Abhas Mitra</h6><h5>Indian Astrophysicist Pioneering in Big Bang Theory and Black Holes</h5>"
                     elem4.innerHTML = "<p><img src=imgs/am.jpg class=popImg>A pioneering Indian astrophysicist, the former head of Theoretical Physics Section at Bhabha Atomic Research Centre, Mumbai, and currently an (Hon) Adjunct Professor at Homi Bhabha National Institute, Mumbai.Known for his distinct views, Dr Mitra has regularly questioned the mainstream cosmological concepts such as the Big Bang, Dark Energy and Black Holes; his claims have been backed by several scientists across the globe. Scientists have come to favour his claims over resolution of the “black hole information paradox”, which was presented 13 years before Stephen Hawking. On July 25, 2006, Center for Astrophysics, Harvard, issued a Press Release mentioning his original idea.It is extremely rare in Indian Science in post-independent India, that a fundamental idea developed within India has been the topic of a press release by Harvard or any Ivy-league institute. One of the leading speakers on Theoretical Physics, Dr Mitra has also shared this honour with few Nobel Laureates; and in 2017, DST India invited him to the Nobel Laureate Symposium at the Vibrant Gujarat Festival. He is accredited with the setting up of Himalayan Gamma Ray Observatory and initiating research in Theoretical Astrophysics both in J&K and in BARC way back in the 1980s! He continues to empower aspiring astrophysicists all over India and has a book entitled 'The Rise  & Fall of the Black Hole Paradigm' coming out in 2018.</p></div>";
                     break;
                 }
                 case 1: {
-                    elem3.innerHTML = "<h2>Aashna Shroff</h2><h3>Lifestyle & Fashion Blogger</h3>"
+                    elem3.innerHTML = "<h6>Aashna Shroff</h6><h5>Lifestyle & Fashion Blogger</h5>"
                     elem4.innerHTML = "<p><img src=imgs/as.jpg class=popImg>An Indian fashion, travel and lifestyle blogger and perhaps the one of the most known fashion vlogger and YouTuber in India, she studied Fashion Business at London College of Fashion. Ever the entrepreneur, she also has an online store The Snob Shop that is an extension of her own approach to fashion. Winner of the People’s Choice Award for Best Urban Style 2017 also the nominee for Cosmopolitan India Blogger Awards 2018, and has a swarm of 400k+ followers on Instagram.</p></div>";
                     break;
                 }
                 case 2: {
-                    elem3.innerHTML = "<h2>Andrea Thumshirn</h2><h3>German Hockey Player | Hockey Village India</h3>"
+                    elem3.innerHTML = "<h6>Andrea Thumshirn</h6><h5>German Hockey Player | Hockey Village India</h5>"
                     elem4.innerHTML = "<p><img src=imgs/at.jpg class=popImg>Andrea Thumshirn, the name might not be a household name in Indian hockey, but her work to develop the sport at the grassroots level is unmatched. Also a German Premier League hockey player, Andrea came to India as a tour operator and in the next 2 years, moved permanently to India to living a very basic lifestyle, in rural and remote Rajasthan. Andrea had been playing the sport ever since she was six. When she had suffered an injury, she quit playing professional hockey. So, she started coaching kids in the sport in Germany. She brought the same passion and love of the game to India, as the founder and head of Hockey Village India and also started a primary English medium school to provide better education to the kids. Hockey Village India, first started in Garh Himmat Singh village, from where she was forced to flee because the villagers were made to believe that the German lady would use her school to convert the kids into Christianity and 'westernise' them, the rumour gave ammunition and she fell victim to the politics. Despite battling suspicion, tackling bureaucratic apathy and struggling for sponsors to continue with her passion to teach hockey to the kids, sticking to her guns, Andrea relocated to a nearby village and since then she has coached 7 kids from the NGO to play in junior German league and took 5 of her students to Germany to practise in professional playgrounds and meet other players. Five of Andrea’s girls were even selected for the state team in the Under-16 category.</p></div>";
                     break;
                 }
                 case 3: {
-                    elem3.innerHTML = "<h2>David Belo</h2><h3>Artisanal Chocolatier</h3>"
+                    elem3.innerHTML = "<h6>David Belo</h6><h5>Artisanal Chocolatier</h5>"
                     elem4.innerHTML = "<p><img src=imgs/db.jpg class=popImg>David began his career as a cocktail bartender, mixing drinks at some of London’s most prestigious cocktail bars, restaurants and clubs, including the London’s LAB bar as well as venues abroad before retraining as an artisan bread baker and pastry chef. Having grown up in South Africa, David took to Indian climes like a fish to water & on a visit to India in 2013 with his partner, found high-quality cocoa growing in Karnataka, which kickstarted his career as a chocolatier. David studied the alchemical healing arts, sacred geometry and music, and went on to bring those principles to his work with food when envisaging the Earth Loaf project. Currently, the co-founder, head Chef and General Manager at Earth Loaf -a dream of artisan project, with raw organic chocolate sourced face to face, unifying people with nature, and craftsmanship with creativity and nutrition. From ‘bean to bar’, as David is fond of saying, it’s a local Indian product — but it took a Londoner with Greek roots to make it and for David, it's simply his vision, translated through fine chocolate.</p></div>";
                     break;
                 }
                 case 4: {
-                    elem3.innerHTML = "<h2>Daniel Doan</h2><h3>Co-Founder & CGO at Black Shell Media</h3>"
+                    elem3.innerHTML = "<h6>Daniel Doan</h6><h5>Co-Founder & CGO at Black Shell Media</h5>"
                     elem4.innerHTML = "<p><img src=imgs/dd.jpg class=popImg>He is a game designer and inbound marketing expert based in California. He is an accomplished growth marketer and has experience in building brands and growing communities for independent game developers and game companies worldwide. With his sound business acumen and his expertise in engaging audiences, he has achieved great success with his company, Black Shell Media, which has shipped more than 2.1 million copies of games on Steam! Also the author of 550+ articles ranging from marketing and productivity to game design and behavioural psychology, his articles have been featured on LinkedIn Pulse and Gamasutra. He is the lead developer behind the award-winning video game SanctuaryRPG on Steam, The world's first ASCII role-playing game on Steam, and has work featured in Forbes, IGN, PC Gamer, and many other leading publications. With his blog Gamasutra and combined social media network with over 725,000 followers, Daniel is known to be, as quoted by Shaquille Brown without a doubt one of the best growth hackers in the gaming industry. You can know more about his work through his blog: GameDev</p></div>";
                     break;
                 }
                 case 5: {
-                    elem3.innerHTML = "<h2>Dhrupad Karwa</2><h3>Co-Founder & CEO HaikuJam</h3>"
+                    elem3.innerHTML = "<h6>Dhrupad Karwa</2><h5>Co-Founder & CEO HaikuJam</h5>"
                     elem4.innerHTML = "<p><img src=imgs/dk.jpg class=popImg>He is a 25-year old budding entrepreneur from Kolkata, India. He is a graduate in Economics from University College London (UCL), and is currently leading an enthusiastic team of 12 at HaikuJAM, an app which has profiled in Forbes,The New York Times and many other international media outlets.HaikuJAM is a social app for writing poetry with people from all over the world you don’t even know! Founded with the mission to realise a more meaningful universe by helping you speak up with people whom you haven’t even met, the app is helping people in over 120 countries collaborate to bring out each other’s creativity. Additionally, Dhrupad Karwa has pursued work for the European Parliament, alongside pursuing his degree at UCL, and has worked to strengthen relations between the Indian Government and the European Union. Dhrupad is also an avid reader, writer and a regular yoga practitioner.</p></div>";
                     break;
                 }
                 case 6: {
-                    elem3.innerHTML = "<h2>Insia Dariwala</h2><h3>Activist | Filmmaker</h3>"
+                    elem3.innerHTML = "<h6>Insia Dariwala</h6><h5>Activist | Filmmaker</h5>"
                     elem4.innerHTML = "<p><img src=imgs/id.jpg class=popImg>Insia Dariwala is an Advertising and Mass Communication graduate from F.I.T New York and today, an award-winning international filmmaker who effectively uses her 14 years of expertise as a writer, director and executive producer to highlight social evils like child sexual abuse (CSA) in her hard-hitting films like 'The Candy Man' and 'Cock-Tale'.A social change maker, through her storytelling and visual arts, the founder of 'The Hands of Hope Foundation' and also the co-founder of an organisation called 'Sahiyo',Insia uses the medium of Art & Films to train the lens on social issues. While one organisation creates awareness in schools, communities & slums in India regarding CSA the latter empowers Asian communities to end female genital cutting (FGC). Actively involved with the WCD Ministry of India, in formulating effective Preventive Measures & Advocacy efforts on Child Sexual Abuse has won Insia prestigious awards like 'Women have Wings' courage award in the U.S.A, The We the Women 'H.E.R' award, in India. An avid writer, her work features on www.unboxedwriters.com, 'TLF-lifestyle & Travel' and 'Books & More'.</p></div>";
                     break;
                 }
                 case 7: {
-                    elem3.innerHTML = "<h2>Nabila Jamshed</h2><h3>Global Governance & Security | United Nations</h3>"
+                    elem3.innerHTML = "<h6>Nabila Jamshed</h6><h5>Global Governance & Security | United Nations</h5>"
                     elem4.innerHTML = "<p><img src=imgs/nj.jpg class=popImg>Born in India, Nabila is an international security and global governance professional currently working with the United Nations. She has previously served as a political analyst with multilateral agencies and the UN in The Hague, in India, and with the United Nations Peacekeeping Mission in South Sudan. She studied in Delhi, and did her Master’s in Global Governance and Diplomacy from the University of Oxford, England. Nabila’s career in the United Nations system began with the Organisation for the Prohibition of Chemical Weapons, where she worked as a Political Affairs Specialist. She joined the OPCW during the organisation’s work on chemical disarmament in Syria, for which it was later awarded the Nobel Peace Prize. With the UN, she co-authored the UN Environment Programme and UNU’s Inclusive Wealth Report for 2014. In her most recent assignment with UN Peacekeeping, Nabila was posted to Juba, South Sudan, where she worked with the Joint Mission Analysis Centre during the conflict of 2016, on security and crisis reporting and analysis. She has delivered TEDx and Hague Talks on the business of war, written columns for The Indian Express and other newspapers and specialises in the UN’s work on preventing conflicts, crisis response, and outlawing weapons of mass destruction.</p></div>";
                     break;
                 }
                 case 8: {
-                    elem3.innerHTML = "<h2>Sahej Rahal</h2><h3>Artist | Sculptor</h3>"
+                    elem3.innerHTML = "<h6>Sahej Rahal</h6><h5>Artist | Sculptor</h5>"
                     elem4.innerHTML = "<p><img src=imgs/sr.jpg class=popImg>Sahej Rahal, born and brought up in the sprawling Mumbai metropolis, Rahal graduated from Rachana Sansad Academy of Fine Arts, trained in painting but branched out into other mediums of artistic expression. In early 2017, Rahal worked on art installations spread out across Liverpool city, with objects made using scrap metal and wood that he found. Followed by, exhibitions in Glasgow, Scotland, which were featured in 'The Week's Top Exhibition' in the UK. Rahal's artworks are as much science fiction and fantasy as they are weird and wonderful. Art might be his first love, but storytelling is equally integral to this 28-year-old’s practice. Working with film, performances and installations, Rahal’s eclectic style has created waves both across the Indian art scene as well as internationally as he travels the world telling tales about everything from history and culture, to religion, science and fantasy. He has been a recipient of many prestigious international residencies and won the Forbes Award for Debut Solo Show, 2014. Rahal continues to challenge the notions of conventional art, which makes his voice continuously important one, both in and around the spaces that define today’s art world.</p></div>";
                     break;
                 }
                 case 9: {
-                    elem3.innerHTML = "<h2>Shraddha Shashidhar</h2><h3>Miss India Universe 2017</h3>"
+                    elem3.innerHTML = "<h6>Shraddha Shashidhar</h6><h5>Miss India Universe 2017</h5>"
                     elem4.innerHTML = "<p><img src=imgs/ss.jpg class=popImg>Shraddha hails from Chennai and is an Indian model, who was crowned Miss Diva 2017 and represented India at Miss Universe 2017, held in Las Vegas. Shraddha did her schooling at Army Public School and pursued a degree in Mass Media from Sophia College, Mumbai. She has been a sprinter, a national-level basketball player, a trained classical dancer. She has also taken up the noble cause of teaching Tibetan refugees at the Lha charitable trust and is one immensely talented woman.</p></div>";
                     break;
                 }
                 case 10: {
-                    elem3.innerHTML = "<h2>Ujjwal Anand</h2><h3>BITSian Speaker |</h3>"
+                    elem3.innerHTML = "<h6>Ujjwal Anand</h6><h5>BITSian Speaker |</h5>"
                     elem4.innerHTML = "<p><img src=imgs/ua.jpg class=popImg>Student speaker for the 2018 edition of TEDxBITSPilani, Ujjwal Anand, a self taught fluteboxer who will be talking about how to push yourself and make things happen. He is a 3rd year undergraduate from BITS Pilani. He is currently the Team Leader of Electrical Power System, Team Anant. A technical team of students designing their own nano-satellite. He has also been the captain of BITS Athletics team.</p></div>";
                     break;
                 }
                 case 11: {
-                    elem3.innerHTML = "<h2>Varun Sheth</h2><h3>CEO & Co-Founder Ketto</h3>"
+                    elem3.innerHTML = "<h6>Varun Sheth</h6><h5>CEO & Co-Founder Ketto</h5>"
                     elem4.innerHTML = "<p><img src=imgs/vs.jpg class=popImg>Andrea Thumshirn, the name might not be a household name in Indian hockey, but her work to develop the sport at the grassroots level is unmatched. Also a German Premier League hockey player, Andrea came to India as a tour operator and in the next 2 years, moved permanently to India to living a very basic lifestyle, in rural and remote Rajasthan. Andrea had been playing the sport ever since she was six. When she had suffered an injury, she quit playing professional hockey. So, she started coaching kids in the sport in Germany. She brought the same passion and love of the game to India, as the founder and head of Hockey Village India and also started a primary English medium school to provide better education to the kids. Hockey Village India, first started in Garh Himmat Singh village, from where she was forced to flee because the villagers were made to believe that the German lady would use her school to convert the kids into Christianity and 'westernise' them, the rumour gave ammunition and she fell victim to the politics. Despite battling suspicion, tackling bureaucratic apathy and struggling for sponsors to continue with her passion to teach hockey to the kids, sticking to her guns, Andrea relocated to a nearby village and since then she has coached 7 kids from the NGO to play in junior German league and took 5 of her students to Germany to practise in professional playgrounds and meet other players. Five of Andrea’s girls were even selected for the state team in the Under-16 category.</p></div>";
                     break;
                 }
                 case 12: {
-                    elem3.innerHTML = "<h2>J Gopikrishanan</h2><h3>Award Wining Journalist</h3>"
+                    elem3.innerHTML = "<h6>J Gopikrishanan</h6><h5>Award Wining Journalist</h5>"
                     elem4.innerHTML = "<p><img src=imgs/jg.jpg class=popImg>An Indian journalist who unearthed the 2G Scam. He obtained Post Graduate Diploma in Journalism from Institute of Journalism, Press Club, Thiruvananthapuram in 1999, followed by working with several media organisations in Kerela. Apart from the Ramnath Goenka award for the Journalist of the Year – 2009 (awarded in January 2012), Gopikrishnan has also bagged several prestigious awards like CNN-IBN television channel’s ‘Indian of the Year’ in December 2010. He also presented a paper on ‘Telecom scandal of India” in coveted international journalists’ conference in Norway – SKUP in March 2012. He shifted to Delhi, to join The Pioneer', an English newspap'er, in 2008, where he went on to expose: the hidden list of companies floated by the relatives of then telecom minister A.Raja, midnight letters involving the 2G Scam exchanged between then Prime Minister Manmohan Singh and A.Raja, hidden minutes of the meetings between then Finance Minister P.Chidambaram and Telecom Minister A.Raja. Gopikrishnan's major reports on the 2G scam, rocked the ruling Congress-led UPA Government and ultimately led to it's pummeling in 2014 elections, making J.Gopalakrishnan one of the most successful Investigative Journalist, the country has ever seen. J.Gopalakrishnan continues to be an active member of Action Committee Against Corruption in India and has participated in several seminars in India and abroad, and made speeches mainly on media ethics and corporatisation of media. Based on his reports on the 2G scam, the Patiala House Court on 21st December 2017, acquitted all accused including A.Raja and DMK leader Kanimozhi.</p></div>";
                     break;
                 }
